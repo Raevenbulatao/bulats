@@ -1,0 +1,169 @@
+/* why we choose this issue, */
+
+
+.container {
+    min-width: auto;
+    
+    background-color: #141a25;
+   
+    
+    
+   
+    
+    
+   
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .why-title {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  
+  
+  /* Trial */
+  
+  
+  
+  
+  
+  
+
+
+#home {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* This ensures the background covers the full height of the viewport */
+  }
+  
+
+
+/* Slider */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {background-color: #0D1B2B; overflow-x: hidden; font-family: roboto; -webkit-font-smoothing: antialiased; margin: 0;}
+.flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  flex-direction: row; -webkit-justify-content: flex-start; justify-content: flex-start;}
+
+.slider-wrapper div {position: relative;}
+.slider-wrapper {margin-top: 15vw;  margin-left: 11vw;}
+.slide-image {height: 24vw;}
+.slide-image img {width: 24vw; cursor: pointer;}
+.slide-content {min-width: 300px; color: #fff; padding: 15px;}
+.slide-date {color: #0a8acb; font-size: 1.1vw; font-weight: 400; letter-spacing: 0.1vw; padding-bottom: 1.4vw;}
+.slide-title {font-size: 1.5vw; font-weight: 400; letter-spacing: 0.1vw; line-height: 1.55vw; padding-bottom: 1.8vw; color: #FFF61D;}
+.slide-text {font-size: 2vw; line-height: 1.5vw; opacity: 0.8; padding-bottom: 7vw; color: #39FF14;}
+.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 0.9vw;}
+.slide-bullet {width: 0.5vw; height: 0.5vw; background-color: #0b8bcc; border-radius: 200%; position: relative; margin-left: 1.2vw;}
+.slide-nav {margin-left: 64vw; margin-top: -5.5vw;}
+
+div.overlay-blue {width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s ease all;}
+div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
+
+.arrows{width: 3.5vw; margin-top: -5.8vw; margin-left: 72vw; position: relative;}
+.arrow {display: inline-block; position: absolute; width: 1.2vw; height: 1.2vw; background: transparent; text-indent: -9999px; border-top: 0.15vw solid #fff; border-left: 0.15vw solid #fff; transition: all .1s ease-in-out; text-decoration: none; color: transparent;
+}
+.arrow:hover {border-color: #0A8ACB; border-width: 0.25vw;
+}
+.arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(45deg);}
+.arrow.prev {transform: rotate(-45deg); left: 0;}
+.arrow.next {transform: rotate(135deg); right: 0;}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .gallery {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    flex: 1;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image:hover::before {
+    opacity: 1;
+  }
+  
+  .image img,
+  .image::before {
+    border-radius: 8px;
+  }
+  
+  .image img:hover + .overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .overlay h3 {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  

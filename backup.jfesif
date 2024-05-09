@@ -1,0 +1,362 @@
+.container {
+    width: 340px
+}
+
+.box {
+    float: left;
+    width: 100px;
+    height: 80px;
+    border: 1px solid #000;
+    margin: 0 10px 10px 0;
+}
+
+.box.expanded {
+    width: 212px;
+}
+
+
+
+
+.box {
+    display: inline-block;
+    width: 500px;
+    height: 475px;
+    background-color: #ca7777;
+ 
+    border-radius: 100px 15px 100px 10p
+
+}
+
+
+.container {
+    width: 100%;
+}
+
+ /* why we choose this website? */
+
+
+.box {
+    display: inline-block;
+    width: 500px;
+    height: 475px;
+    background-color: #ca7777;
+    border-radius: 100px 15px 100px 10p
+}
+
+.box.expanded {
+    width: 500px;
+    height: 500px;
+
+}
+
+ /* why we choose this website?2 */
+
+.box2 {
+    display: inline-block;
+    width: 500px;
+    height: 475px;
+    background-color: #ca7777;
+    border-radius: 100px 15px 100px 10p
+}
+
+.box2.expanded {
+    width: 500px;
+    height: 500px;
+
+}
+
+ /* why we choose this website? */
+
+ .box3 {
+    display: inline-block;
+    width: 500px;
+    height: 475px;
+    background-color: #ca7777;
+    border-radius: 100px 15px 100px 10p
+}
+
+.box3.expanded {
+    width: 500px;
+    height: 500px;
+
+}
+
+  /* why we choose this website? */
+
+  .box4 {
+    display: inline-block;
+    width: 500px;
+    height: 475px;
+    background-color: #ca7777;
+    border-radius: 100px 15px 100px 10p
+}
+
+.box4.expanded {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+<div class="dropdown">
+                <button class="b1"> Study Tools  </button>
+                <div class="content">
+                 
+
+                 <a href="pomo"> Pomodoro Timer</a>
+                 <a href="cal">Sci Calculator</a>
+                 <a href="con">Unit Converter</a>
+
+
+                 
+                </div>
+            </div>
+
+
+
+
+            .b1:hover{
+
+    color: #0ef;
+
+
+  }
+
+  .dropdown{
+    display: inline-block;
+
+    
+}
+.dropdown button{
+    background-color: #11141a;
+    color: white;
+    padding: 10px 1px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+   
+    transition: .3s;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: auto;
+    margin-left: 5px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color:#11141a;
+    min-width: 75px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    
+}
+.dropdown:hover .content{
+  transition: 10s;
+  
+    display: block;
+}
+.dropdown:hover button{
+  
+    background-color:#11141a;
+}
+.dropdown a:hover{
+    background-color:#11141a;
+    transition: 1s;
+}
+
+
+
+orig
+html
+
+
+ <div class="container">
+            <p class="tl">Why we choose this Issue?</p>
+
+
+            <div class="box"> </div>
+
+            <div class="box2"></div>
+
+            <div class="box2"></div>
+
+            <div class="box2"></div>
+
+            html end  
+
+
+
+ orig class
+
+/* div info */
+
+
+    
+.tl {
+    color: #11141a;
+    font-size: 50px;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+   
+
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+ /* why we choose this website? */
+
+
+.box {
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+    background-color: #ada1a1;
+    border-radius: 150px 50px 150px 40px;
+    margin-left: 50px;
+    margin-top: 80px;
+    
+  
+    section:nth-child(odd) {
+    background: #323946;
+
+    
+}
+
+
+
+
+ /* why we choose this website?2 */
+
+.box2 {
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+    background-color: #ca7777;
+    border-radius: 150px 50px 150px 40px;
+    margin-left: 50px;
+    margin-top: 80px;
+  
+    vertical-align: top;
+    
+
+    
+}
+
+
+
+ /* why we choose this website? */
+
+ .box3 {
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+    background-color: #ca7777;
+    border-radius: 150px 50px 150px 40px;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  
+    vertical-align: top;
+    
+
+    
+}
+
+.box4 {
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+    background-color: #ca7777;
+    border-radius: 150px 50px 150px 40px;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  
+    vertical-align: top;
+    
+
+    
+}
+
+
+
+css end
+
+
+
+
+
+
+
+
+.drop {
+
+ margin-top: 10px;
+ margin-left:30px;
+ margin-right: 10px;
+ 
+}
+ 
+  
+
+ 
+
+  background: #0ef;
+    color: #92999f;
+    display: flex
+    justify-content: space-between;
+    align-items: center;
+    border: 1px #3f3f3f;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+
+
+
+     <div class="raeven">
+          <p class="name">Bulatao, Raeven D.</p>
+          <br>
+          <p class="description">"Waste management impacts our environment's health. 
+            Poor management can lead to pollution of air, water, and soil, 
+            harming ecosystems and endangering wildlife."</p>
+  
+        </div>
+  
+        <div class="allen">
+          <p class="name">Cayaban, Tom Allen</p>
+          <br>
+          <p class="description">"Proper waste management helps conserve resources by recycling 
+            and reusing materials. This reduces the need for extracting raw materials and 
+            helps preserve natural resources for future generations."</p>
+  
+        </div>
+  
+        <div class="carl">
+          <p class="name">Aquino, Dhion Carl</p>
+          <p class="description">"Effective waste management contributes to the well-being of communities
+             by preventing the spread of diseases and creating cleaner living spaces. 
+             It improves public health and enhances the quality of life for everyone."</p>
+  
+        </div>
+  
+        <div class="jongs">
+          <p class="name">Guzman, Xander Jonathan</p>
+          <p class="description">"Waste management directly influences public health, 
+            making it a critical focus. Proper waste disposal helps prevent the spread 
+            of diseases and ensures safe living conditions for communities."</p>
+  
+        </div>

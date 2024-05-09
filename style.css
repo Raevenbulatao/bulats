@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: #11141a;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+
+    font-size: 50px;
+    font-weight: 600;
+    background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+  
+  
+
+
+
+
+   
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    
+}
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+
+
+section {
+ min-width: auto;
+  
+  margin: auto;
+ 
+  
+  font-size: 8px;
+  color:  #fff;
+  font-weight: 700;
+  width: 100%;
+  display: inline-block;
+  background: #141a25;
+  height: 150vh;
+  text-align: center;
+ 
+}
+
+
+
+
+
+
+
+.class {
+    font-size: medium;
+    
+}
+
+.title {
+    height: 50px;
+    width: 100%;
+    font-size: 48px; /* Increase font size */
+    text-align: center; /* Center align the text */
+    margin-top: 50px; /* Add some top margin for spacing */
+  }
+
+ 
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+  }
+
+.search {
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    width: 200px; /* Adjust width as needed */
+    background-color: #11141a;
+    background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  .search:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+  }
+
+  .games {
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  display: inline-block;
+  margin: auto;
+  }
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+
+.footer-distributed{
+  background: #11141a;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 15%;
+  
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+.ending {
+
+    font-size: 50px;
+    font-weight: 600;
+    background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+
+body {
+    /* Metal by Etienne Martin. https://unsplash.com/photos/v6uiP2MD6vs */
+    --metal-tex: url(https://images.unsplash.com/photo-1501166222995-ff31c7e93cef?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTcyMDc2NzU&ixlib=rb-1.2.1&q=80);
+    
+    background: black;
+    color: white;
+    font-family: system-ui, sans-serif;
+  }
+  
+  a {
+    color: skyblue;
+    font-weight: bold;
+  }
+  
+  .main {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .metal {
+    position: relative;
+    margin: 15vh auto;
+    color: transparent;
+    font-family: impact, sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    background-image: var(--metal-tex);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .texture,
+  .texture::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+    
+  .texture {
+    background-image: linear-gradient(to bottom, blue, white 50%, red 65%, white);
+    background-attachment: fixed;
+    mix-blend-mode: color-dodge;
+  }
+  
+  .texture::after {
+    content: '';
+    background-image: var(--metal-tex);
+    background-size: cover;
+    filter: saturate(0) brightness(0.8) contrast(4);
+    mix-blend-mode: multiply;
+  }
+
+
+
+
+
+
+
+  .b1:hover{
+
+    color: #0ef;
+
+
+  }
+
+  .dropdown{
+    display: inline-block;
+
+    
+}
+.dropdown button{
+    background-color: #11141a;
+    color: white;
+    padding: 10px 1px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+   
+    transition: .3s;
+}
+.dropdown a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: auto;
+    margin-left: auto;
+    
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color:#11141a;
+    min-width: 75px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    color: #fff;
+    transition: 0.10s;
+    
+}
+.dropdown:hover .content{
+  transition: 10s;
+  
+    display: block;
+}
+.dropdown:hover button{
+  
+    background-color:#11141a;
+}
+.dropdown a:hover{
+    background-color:#11141a;
+    transition: 1s;
+}
+
+
+.drop {
+
+ margin-top: 10px;
+ margin-left:30px;
+ margin-right: 10px;
+ 
+}
+
+
+/* Notif */
+
+.popup-overlay {
+
+  display: none;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+.popup {
+
+font-family: Arial, sans-serif;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  background: #222020;
+
+  padding: 20px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.popup-content {
+
+  text-align: center;
+
+}
+
+.popup .close {
+
+  position: absolute;
+
+  top: 10px;
+
+  right: 10px;
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+  color: #333;
+
+}
+
+.popup #emailInput {
+
+  width: 80%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border: 1px solid #ddd;
+
+  border-radius: 4px;
+
+}
+
+.popup button {
+
+  background-color: #4caf50;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
