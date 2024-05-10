@@ -558,6 +558,27 @@ font-family: Arial, sans-serif;
 
 
 
+@media only screen and (max-width: 600px) {
+  section {
+ min-width: 100vh;
+  
+  margin: auto;
+ 
+  
+  font-size: 8px;
+  color:  #fff;
+  font-weight: 700;
+  width: 100%;
+  display: inline-block;
+  background: #141a25;
+  height: 150vh;
+  text-align: center;
+
+}
+}
+
+
+
 
 
 
